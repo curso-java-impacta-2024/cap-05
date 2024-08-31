@@ -7,10 +7,6 @@ public class Cachorro extends Animal {
 	private String nome;
 	
 	
-	public Cachorro() {
-		
-	}
-
 
 	public String getNome() {
 		return nome;
@@ -20,6 +16,32 @@ public class Cachorro extends Animal {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	
+	
+	@Override // metódo já existente 
+	public void emitirSom() {
+		
+		System.out.println("Latindo");
+		
+	}
+	
+	
+	@Override
+	public void locomover() {
+		
+		System.out.println("Correndo");
+		
+	}
+	
+	@Override
+	public boolean alimentar(String food) {
+		
+		System.out.println("Foi alimentado");
+		return true;
+	}
+	
+	
+	
 	
 	
 	

@@ -28,6 +28,10 @@ public class Manipulacao {
 		System.out.println("Nome : " + cachorro.getNome());
 		
 		
+		cachorro.emitirSom();
+		cachorro.locomover();
+		System.out.println(cachorro.alimentar("Ração"));
+		
 		
 
 	}
