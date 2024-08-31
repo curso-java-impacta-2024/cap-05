@@ -19,12 +19,18 @@ public class Manipulacao {
 		cachorro.setTipo("shitzu");
 		cachorro.setNome("Januario");
 		
+		
 		System.out.println("Especie do meu cachorro  " + cachorro.getEspecie());
 		System.out.println("Genero do meu cachorro " + (cachorro.getGenero() == 'F' ? "femea" : "macho" ));
 		System.out.println("Peso do meu cachorro " + cachorro.getPeso());
 		System.out.println("Tamanho do meu cachorro " + cachorro.getTamanho());
 		System.out.println("Tipo do meu cachorro " + cachorro.getTipo());
 		System.out.println("Nome do meu cachorro " + cachorro.getNome());
+		
+		//chamando um metodo
+		cachorro.emitirSom();
+		cachorro.locomover();
+		System.out.println(cachorro.alimentar("racao"));
 	}
 
 }

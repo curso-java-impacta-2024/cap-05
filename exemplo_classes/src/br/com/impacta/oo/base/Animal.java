@@ -20,6 +20,19 @@ public class Animal {
 		this.tamanho = tamanho;
 		this.genero = genero;
 	}
+	
+	public void emitirSom() {
+		System.out.println("emitindo som!");
+	}
+	
+	public void locomover() {
+		System.out.println("Se locomovendo !");
+	}
+	
+	public boolean alimentar(String comida) {
+		System.out.println("Alimentado!");
+		return true;
+	}
 
 	public String getTipo() {
 		return tipo;
