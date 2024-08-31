@@ -27,9 +27,9 @@ public class Animal {
 	
 	
 	
-	
-	public String emitirSom(int qtd) {
-		for(int x=0; x< qtd; x++ ) {
+	// 	Assinatura de um método
+	public String emitirSom(int qtd) { 
+		for(int x=0; x < qtd; x++ ) {
 			
 			System.out.println("Emitindo Som!!!");
 		}
@@ -89,6 +89,11 @@ public class Animal {
 
 	public void setGenero(char genero) {
 		this.genero = genero;
+	}
+
+	public String emitirSom(int qtd, String tipo) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 	
