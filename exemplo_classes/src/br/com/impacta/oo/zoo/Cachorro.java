@@ -18,12 +18,12 @@ public class Cachorro extends Animal {
 	}
 	
 	
-	@Override // metódo já existente 
+	/*@Override // metódo já existente 
 	public void emitirSom() {
 		
 		System.out.println("Latindo");
 		
-	}
+	}*/
 	
 	
 	@Override

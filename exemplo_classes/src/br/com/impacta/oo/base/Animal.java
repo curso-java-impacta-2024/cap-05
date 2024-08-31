@@ -24,9 +24,20 @@ public class Animal {
 	}
 	
 	
-	public void emitirSom() {
-		System.out.println("Emitindo Som!!!");
+	
+	
+	
+	
+	public String emitirSom(int qtd) {
+		for(int x=0; x< qtd; x++ ) {
+			
+			System.out.println("Emitindo Som!!!");
+		}
+		
+			return "Emitindo som!!!";
+			
 	}
+		
 	
 	public void locomover() {
 		System.out.println("Se locomovendo ");
