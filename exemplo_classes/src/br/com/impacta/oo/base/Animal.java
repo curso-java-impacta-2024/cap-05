@@ -19,6 +19,21 @@ public class Animal {
 		this.genero = genero;
 	}
 
+	
+	public void emitirSom() {
+		System.out.println("Emitindo Som!!!");
+	}
+	
+	public void locomover() {
+		System.out.println("Se locomovendo");
+	}
+	
+	
+	public boolean alimentar(String comida) {
+		System.out.println("Alimentado");
+		return true;
+	}
+	
 	public String getTipo() {
 		return tipo;
 	}
