@@ -24,7 +24,7 @@ public class Manipulacao {
 		System.out.println("Raça   : " +cachorro.getTipo());
 		System.out.println("Nome   : " +cachorro.getNome());
 		
-		cachorro.emitirSom();
+		cachorro.emitirSom(10);
 		cachorro.locomover();
 		System.out.println(cachorro.alimentar("Ração"));
 		
