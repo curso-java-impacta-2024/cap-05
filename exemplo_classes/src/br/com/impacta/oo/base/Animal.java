@@ -20,8 +20,14 @@ public class Animal {
 	}
 
 	
-	public void emitirSom() {
-		System.out.println("Emitindo Som!!!");
+	
+	
+	public String emitirSom(int qtd) {
+		for(int x=0; x < qtd ; x++) {
+			System.out.println("Emitindo Som!!!");
+		}
+		
+			return "Emitindo Som!!!";
 	}
 	
 	public void locomover() {
@@ -72,6 +78,11 @@ public class Animal {
 
 	public void setGenero(char genero) {
 		this.genero = genero;
+	}
+
+	public String emitirSom(int qtd, String tipo) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 	

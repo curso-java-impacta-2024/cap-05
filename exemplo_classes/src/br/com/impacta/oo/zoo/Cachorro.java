@@ -15,8 +15,9 @@ public class Cachorro extends Animal{
 	}
 	
 	@Override
-	public void emitirSom() {
+	public String emitirSom(int qtd, String tipo) {
 		System.out.println("Latindo");
+		return "Au, Au";
 	}
 	
 	@Override
