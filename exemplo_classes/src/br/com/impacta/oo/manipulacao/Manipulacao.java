@@ -28,7 +28,7 @@ public class Manipulacao {
 		System.out.println("Nome do meu cachorro " + cachorro.getNome());
 		
 		//chamando um metodo
-		cachorro.emitirSom();
+		cachorro.emitirSom(10);
 		cachorro.locomover();
 		System.out.println(cachorro.alimentar("racao"));
 	}

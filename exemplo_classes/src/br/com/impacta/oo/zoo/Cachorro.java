@@ -17,7 +17,7 @@ public class Cachorro extends Animal{
 	
 	// aqui vou herdar os metodos mas vou muda-los, usando o polimorfismo
 	
-	@Override 
+	//@Override //comentando a anotacao para usar o metodo original
 	public void emitirSom() {
 		System.out.println("Au au!");
 	}

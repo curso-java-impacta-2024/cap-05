@@ -21,8 +21,12 @@ public class Animal {
 		this.genero = genero;
 	}
 	
-	public void emitirSom() {
-		System.out.println("emitindo som!");
+	//aqui modificamos o metodo para testar o encapsulamento
+	public String emitirSom(int qtd) {
+		for(int x=0; x < qtd ; x++){
+		System.out.println("Emitindo som!");
+		}
+		return "Emitindo som!";
 	}
 	
 	public void locomover() {
